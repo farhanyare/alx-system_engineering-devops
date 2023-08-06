@@ -1,0 +1,2 @@
+#!/bin/bash
+use_effective_name=$(id -un | cut -d '(' -f 1)
