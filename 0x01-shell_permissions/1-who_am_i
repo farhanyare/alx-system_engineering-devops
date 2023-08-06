@@ -1,2 +1,3 @@
 #!/bin/bash
-use_effective_name=$(id -un | cut -d '(' -f 1)
+effective_username=$(id -un | cut -d '(' -f 1)
+echo "$effective_username"
