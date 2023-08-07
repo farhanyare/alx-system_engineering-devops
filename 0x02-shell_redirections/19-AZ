@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "ABcD" | tr 'Ac' 'Ze'
+echo "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+" | tr 'Ac' 'Ze'
