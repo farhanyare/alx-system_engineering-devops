@@ -1,2 +1,2 @@
 #!/bin/bash
-{ set -o posix; set; echo "Environment variables:"; printenv; echo "Functions:"; declare -F; }
+(set -o posix; set|cat -; env|cat -; declare -F)
